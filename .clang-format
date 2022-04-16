@@ -6,7 +6,7 @@ IndentWidth: 4
 ColumnLimit: 140
 
 AlignAfterOpenBracket: AlwaysBreak
-AllowShortBlocksOnASingleLine: Never
+AllowShortBlocksOnASingleLine: Empty
 AllowShortEnumsOnASingleLine: true
 AllowShortFunctionsOnASingleLine: All
 AllowShortIfStatementsOnASingleLine: WithoutElse
@@ -19,7 +19,7 @@ BraceWrapping:
   AfterCaseLabel: true
   AfterClass: true
   AfterControlStatement: Always
-  AfterEnum: false
+  AfterEnum: true
   AfterFunction: true
   AfterNamespace: true
   AfterStruct: true
@@ -48,9 +48,11 @@ IndentCaseBlocks: true
 IndentCaseLabels: true
 IndentExternBlock: Indent
 IndentPPDirectives: BeforeHash
+
 KeepEmptyLinesAtTheStartOfBlocks: false
 MaxEmptyLinesToKeep: 2
 PointerAlignment: Right
+PPIndentWidth: 4
 #QualifierAlignment: Left
 ReferenceAlignment: Right
 ReflowComments: true
