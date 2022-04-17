@@ -8,7 +8,7 @@ Clang format file for embedded c projects
 * Add submodule in folder: `git submodule add git@github.com:phyllome/clang-format.git .clang`
 
 * Create symbolic link (OSX/Linux): `ln -s .clang/.clang-format`
-* Create Symbolic link (Windows): `mklink .clang-format .clang/.clang-format`
+* Create Symbolic link (Windows): `mklink .clang-format .clang\.clang-format`
 
 ## VS Code
 
