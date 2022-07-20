@@ -10,7 +10,7 @@ Clang format file for embedded c projects
 * Create symbolic link (OSX/Linux): `ln -s .clang/.clang-format`
 * Create symbolic link (Windows): `mklink .clang-format .clang\.clang-format`
 
-* Add symbolic link (`.clang-format`) to `.gitignore`
+* Add symbolic link (`.clang-format`) to `.gitignore` (OSX/linux terminal `echo ".clang-format" >> .gitignore`)
 
 ## VS Code
 
